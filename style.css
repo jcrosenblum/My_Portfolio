@@ -1,0 +1,44 @@
+* {
+
+}
+
+html {
+
+}
+
+body {
+    background-image: url(https://images.fineartamerica.com/images/artworkimages/medium/1/flamingo-cutout-greg-noblin-transparent.png);
+    background-color:aqua
+    /* background-repeat: no-repeat; */
+}
+
+nav ul {
+    margin: auto 10% 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+/* .grid_left {
+    grid: left;
+} */
+
+nav .grid_left {
+    grid-column: 1;
+}
+
+/* .grid_right {
+    grid: right;
+} */
+
+nav .grid_right {
+    grid-column: 2;
+}
+
+/* .grid_center {
+    position: fixed;
+    left: 50%;
+} */
+
+nav .grid_center {
+    grid-column: 3;
+}
