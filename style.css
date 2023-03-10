@@ -1,15 +1,23 @@
-* {
-
-}
-
-html {
-
-}
-
 body {
     background-image: url(https://images.fineartamerica.com/images/artworkimages/medium/1/flamingo-cutout-greg-noblin-transparent.png);
     background-color:aqua
-    /* background-repeat: no-repeat; */
+}
+
+header {
+    padding: 35px;
+    color: whitesmoke;
+    text-shadow: slategrey 10px 10px 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+}
+
+header img {
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 nav ul {
@@ -18,27 +26,50 @@ nav ul {
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-/* .grid_left {
-    grid: left;
-} */
+nav ul a {
+    color: whitesmoke;
+    text-decoration: none;
+    text-shadow: slategrey 10px 10px 15px;
+    font-size: 125%;
+}
 
 nav .grid_left {
     grid-column: 1;
 }
 
-/* .grid_right {
-    grid: right;
-} */
-
 nav .grid_right {
     grid-column: 2;
 }
 
-/* .grid_center {
-    position: fixed;
-    left: 50%;
-} */
-
 nav .grid_center {
     grid-column: 3;
+}
+
+section h2 {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 30px;
+    background-color: black;
+    color: whitesmoke;
+    text-shadow: slategrey 10px 10px 15px;
+    text-align: right;
+}
+
+section p {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 70%;
+    text-align: left;
+    text-shadow: slategrey 0px 0px 5px;
+}
+
+.applications img {
+    border-radius: 50%;
+}
+
+#showcase img {
+    width: 35%;
+    height: auto;
 }
