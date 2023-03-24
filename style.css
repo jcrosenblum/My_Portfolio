@@ -67,9 +67,17 @@ section p {
 
 .applications img {
     border-radius: 50%;
+    display: inline;
 }
 
 #showcase img {
-    width: 35%;
+    width: 20%;
+    height: auto;
+}
+
+.secondary img {
+    display: inline-flex;
+    position: auto 5% auto auto;
+    width: 15%;
     height: auto;
 }
